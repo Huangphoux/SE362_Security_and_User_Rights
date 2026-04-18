@@ -19,30 +19,31 @@ Nhóm 13
 #set par(leading: 0.55em, spacing: 0.55em, first-line-indent: 1.8em, justify: true)
 #show heading: set block(above: 1.4em, below: 1em)
 
-= Tóm tắt
+= Tóm tắt (Cheng)
 #include "1_tom-tat.typ"
 
-= Phần giới thiệu
+= Phần giới thiệu (Cheng)
 #include "2_gioi-thieu.typ"
 
 = Nội dung phân tích chuyên sâu
-== Yêu cầu địa chỉ email và số điện thoại của người dùng
+== Yêu cầu địa chỉ email và số điện thoại của người dùng (Minh)
 #include "3_email-sdt.typ"
 
-== Tracking cookies, Affiliate links, Honey scam
+== Passkey, MFA, Biometric Authentication (Minh)
+#include "7_auth.typ"
+
+== Tracking cookies, Affiliate links, Honey scam (Phúc)
 #include "4_honey.typ"
 
-== reCAPTCHA
+== reCAPTCHA (Phúc)
 #include "5_recaptcha.typ"
 
-== Cloudflare's Turnstile
+== Cloudflare's Turnstile (Phúc)
 #include "6_cloudflare.typ"
-
-== Passkey, MFA, Biometric Authentication
-#include "7_auth.typ"
 
 
 = Kết luận
+#include "8_ket-luan.typ"
 
 = Tài liệu tham khảo
 
