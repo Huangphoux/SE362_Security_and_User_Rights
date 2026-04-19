@@ -1,3 +1,5 @@
+#set heading(offset: 2)
+
 - Email, phone number
   - Tránh spam account
   - Có chắc là không đem bán không?

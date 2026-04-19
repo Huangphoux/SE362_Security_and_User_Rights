@@ -1,4 +1,9 @@
-- reCAPTCHA v2, v3
-  - Kiểm tra thông tin gì của người dùng?
+#set heading(offset: 2)
 
-= Hướng phát triển trong tương lai
+CAPTCHA là một bài kiểm tra được sử dụng bởi các trang web nhằm xác định cá thể đang muốn truy cập là bot hay con người, từ đó giảm việc bị truy cập đồng loạt bởi bot thay vì con người. reCAPTCHA là phiên bản cải tiến được phát triển bởi Google. Phiên bản đầu yêu cầu người dùng phải nhìn hình và nhập vào ô nội dung của hình. Vì lí do tốn thời gian cho con người và công nghệ nhận dạng văn bản ngày càng phát triển, phiên bản hai đơn giản hoá việc tương tác thành việc chỉ cần nhấn vào ô vuông. Nhưng nếu không thể xác thực được người dùng, reCAPTCHA phải sử dụng biện pháp khác để đối phó, dẫn đến việc một vài người dùng sẽ gặp khó khăn trong việc chứng minh bản thân là con người.
+
+Vấn đề ở việc, reCAPTCHA sử dụng dữ liệu gì để phân biệt người hay máy. reCAPTCHA phân tích cookie và địa chỉ IP của người dùng để nhận dạng, và kể cả việc rê chuột đến ô vuông cũng có thể cho biết là con người hay không. @ip_address Thế nhưng, đó là những dữ liệu mà Google có thể công khai được, ngoài ra còn nhiều dữ liệu khác mà Google không công khai, nhằm hạn chế việc bị các bot lợi dụng, cũng như có thể các dữ liệu đấy là dữ liệu riêng tư của người dùng.
+
+Đến phiên bản ba, reCAPTCHA sẽ âm thầm theo dõi hoạt động của người dùng và chỉ hiện khi không biết có phải là người hay không. Một nghiên cứu phát hiện việc reCAPTCHA sử dụng cookie lưu trữ tài khoản Google của người dùng để phân biệc người và máy. Nếu người dùng đăng nhập tài khoản Google từ trước thì mỗi lần truy cập các trang web sẽ được mặc định cho là con người. reCAPTCHA bản ba yêu cầu phải được nhúng vào toàn bộ các trang của trang web để có thể theo dõi người dùng xuyên suốt qua các trang, từ đó khả năng việc Google theo dõi lịch sử duyệt web của người dùng cũng không thực sự là thấp. @dark_side
+
+Qua những điều vừa được kể ở trên, ta có thể thấy được sự tương đồng với việc cookie bên thứ ba theo dõi lịch sử duyệt web của người dùng. Trong thời buổi hiện đại, các trang web phải cân đối việc ngăn cản bị tấn công hàng loạt bởi các bot, và việc tạo trải nghiệm truy cập trang web mượt mà cho người dùng. Thế nhưng, nếu vì việc ngăn cản đấy mà phải thu thập thông tin của người dùng, đến độ người dùng cũng không có phương pháp gì để đối phó với việc này, thì quả thực không ai còn có thể giữ gìn thông tin riêng tư của bản thân mà vừa sử dụng mạng Internet được nữa.

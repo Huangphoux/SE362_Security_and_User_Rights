@@ -32,7 +32,7 @@ Nhóm 13
 == Passkey, MFA, Biometric Authentication (Minh)
 #include "7_auth.typ"
 
-== Tracking cookies, Affiliate links, Honey scam (Phúc)
+== Cookie theo dõi (Phúc)
 #include "4_honey.typ"
 
 == reCAPTCHA (Phúc)
@@ -41,9 +41,12 @@ Nhóm 13
 == Cloudflare's Turnstile (Phúc)
 #include "6_cloudflare.typ"
 
+== Anubis (Phúc)
+#include "6.1_anubis.typ"
 
 = Kết luận
 #include "8_ket-luan.typ"
 
 = Tài liệu tham khảo
+#bibliography("bib.bib")
 
