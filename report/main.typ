@@ -8,7 +8,6 @@ Balancing Security and User Rights in 2025",
   author: "
 Nhóm 13
 23521224 Trương Hoàng Phúc
-23520175 Chang Chien Cheng
 23520962 Võ Khôi Bình Minh",
   language: "vi",
   compact-mode: false,
@@ -19,10 +18,10 @@ Nhóm 13
 #set par(leading: 0.55em, spacing: 0.55em, first-line-indent: 1.8em, justify: true)
 #show heading: set block(above: 1.4em, below: 1em)
 
-= Tóm tắt (Cheng)
+= Tóm tắt (Phúc)
 #include "1_tom-tat.typ"
 
-= Phần giới thiệu (Cheng)
+= Phần giới thiệu (Phúc)
 #include "2_gioi-thieu.typ"
 
 = Nội dung phân tích chuyên sâu
@@ -44,7 +43,7 @@ Nhóm 13
 == Anubis (Phúc)
 #include "6.1_anubis.typ"
 
-= Kết luận
+= Kết luận (Minh)
 #include "8_ket-luan.typ"
 
 = Tài liệu tham khảo
