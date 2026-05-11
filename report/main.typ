@@ -37,7 +37,7 @@ Nhóm 13
 == reCAPTCHA (Phúc)
 #include "5_recaptcha.typ"
 
-== Cloudflare's Turnstile (Phúc)
+== Turnstile của Cloudflare (Phúc)
 #include "6_cloudflare.typ"
 
 == Anubis (Phúc)

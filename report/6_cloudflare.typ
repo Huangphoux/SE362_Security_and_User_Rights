@@ -1,6 +1,8 @@
 #set heading(offset: 2)
 
-Cloudflare Turnstile là một giải pháp phân biệt người dùng, được tạo ra để thay thế reCAPTCHA. Turnstile không yêu cầu người dùng phải sử dụng biện pháp chứng minh nào khác ngoài việc bấm vào ô vuông, kể cả khi không thể xác định được là người hay máy. Ngoài ra, Turnstile không gửi hay sử dụng bất cứ dữ liệu nào của người dùng cho việc xác minh, khác với reCAPTCHA.
+#image("images/turnstile.png")
+
+Turnstile của Cloudflare là một giải pháp phân biệt người dùng, được tạo ra để thay thế reCAPTCHA. Turnstile không yêu cầu người dùng phải sử dụng biện pháp chứng minh nào khác ngoài việc bấm vào ô vuông, kể cả khi không thể xác định được là người hay máy. Ngoài ra, Turnstile không gửi hay sử dụng bất cứ dữ liệu nào của người dùng cho việc xác minh, khác với reCAPTCHA.
 
 Thế nhưng, Turnstile vẫn gửi những thông tin sau đến Cloudflare: địa chỉ IP, TLS Fingerprint, header `User-Agent` và `Origin`. Cloudflare cho rằng sử dụng những thông tin đó nhằm mục đích "Phát hiện và ngăn chặn các bot" và "Cải thiện tính năng phát hiện của Turnstile". @turnstile
 

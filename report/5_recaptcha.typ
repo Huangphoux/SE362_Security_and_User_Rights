@@ -1,5 +1,7 @@
 #set heading(offset: 2)
 
+#image("images/recaptcha.gif")
+
 CAPTCHA là một bài kiểm tra được sử dụng bởi các trang web nhằm xác định cá thể đang muốn truy cập là bot hay con người, từ đó giảm việc bị truy cập đồng loạt bởi bot thay vì con người. reCAPTCHA là phiên bản cải tiến được phát triển bởi Google. Phiên bản đầu yêu cầu người dùng phải nhìn hình và nhập vào ô nội dung của hình. Vì lí do tốn thời gian cho con người và công nghệ nhận dạng văn bản ngày càng phát triển, phiên bản hai đơn giản hoá việc tương tác thành việc chỉ cần nhấn vào ô vuông. Nhưng nếu không thể xác thực được người dùng, reCAPTCHA phải sử dụng biện pháp khác để đối phó, dẫn đến việc một vài người dùng sẽ gặp khó khăn trong việc chứng minh bản thân là con người.
 
 Vấn đề ở việc, reCAPTCHA sử dụng dữ liệu gì để phân biệt người hay máy. reCAPTCHA phân tích cookie và địa chỉ IP của người dùng để nhận dạng, và kể cả việc rê chuột đến ô vuông cũng có thể cho biết là con người hay không. @ip_address Thế nhưng, đó là những dữ liệu mà Google có thể công khai được, ngoài ra còn nhiều dữ liệu khác mà Google không công khai, nhằm hạn chế việc bị các bot lợi dụng, cũng như có thể các dữ liệu đấy là dữ liệu riêng tư của người dùng.
