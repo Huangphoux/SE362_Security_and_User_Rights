@@ -1,4 +1,6 @@
-= Yêu cầu địa chỉ email và số điện thoại của người dùng
+#set heading(offset: 2)
+
+#image("images/gmail.jpg")
 
 Trong nhiều hệ thống hiện nay, việc yêu cầu người dùng cung cấp địa chỉ email và số điện thoại là một bước phổ biến trong quá trình đăng ký và xác thực tài khoản. Điều này giúp hệ thống quản lý người dùng hiệu quả hơn, nhưng cũng đặt ra nhiều vấn đề liên quan đến quyền riêng tư.
 

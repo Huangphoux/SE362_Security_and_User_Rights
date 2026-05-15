@@ -1,5 +1,3 @@
-= Kết luận
-
 Sự phát triển của Internet và các hệ thống trực tuyến đã khiến việc bảo mật trở thành một nhu cầu không thể thiếu. Các công nghệ như xác thực nhiều yếu tố, cookie, reCAPTCHA hay các hệ thống chống bot hiện đại đều được tạo ra với mục tiêu bảo vệ dịch vụ khỏi các hành vi tấn công tự động, gian lận và truy cập trái phép. Tuy nhiên, đi cùng với khả năng bảo mật được nâng cao là việc ngày càng nhiều dữ liệu cá nhân của người dùng bị thu thập, phân tích và lưu trữ.
 
 Qua việc phân tích các công nghệ như yêu cầu email và số điện thoại, cookie bên thứ ba, reCAPTCHA, Cloudflare Turnstile và Anubis, có thể thấy rằng phần lớn các giải pháp hiện nay đều dựa vào việc định danh hoặc theo dõi người dùng để phân biệt con người với máy tính. Một số công nghệ mang lại hiệu quả cao nhưng đồng thời cũng tạo ra nguy cơ xâm phạm quyền riêng tư nếu dữ liệu bị lạm dụng hoặc rò rỉ.

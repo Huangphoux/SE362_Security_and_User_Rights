@@ -17,8 +17,20 @@ Balancing Security and User Rights in 2025",
 )
 
 = Địa chỉ email và số điện thoại của người dùng
+#image("../report/images/gmail.jpg")
+
+- Dùng để xác thực và quản lý tài khoản người dùng.
+- Hỗ trợ OTP, MFA và khôi phục mật khẩu.
+- Có nguy cơ rò rỉ dữ liệu cá nhân nếu hệ thống bị tấn công.
+- Có thể bị dùng cho quảng cáo hoặc theo dõi người dùng.
 
 = Passkey, MFA, Biometric Authentication
+#image("../report/images/fingerprint.png")
+
+- MFA tăng cường bảo mật bằng nhiều lớp xác thực.
+- Passkey giúp giảm nguy cơ bị đánh cắp mật khẩu.
+- Sinh trắc học giúp đăng nhập nhanh và tiện lợi.
+- Các dữ liệu sinh trắc học và cookies có thể ảnh hưởng quyền riêng tư.
 
 = Cookie theo dõi
 - Cookie: dữ liệu máy chủ gửi và lưu trên máy người dùng để sử dụng trong những lần sau.

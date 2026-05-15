@@ -1,4 +1,6 @@
-= Đánh giá các phương pháp bảo mật và tác động đến quyền riêng tư
+#set heading(offset: 2)
+
+#image("images/fingerprint.png")
 
 Hiện nay, nhiều phương pháp bảo mật được áp dụng nhằm bảo vệ tài khoản người dùng, bao gồm xác thực đa yếu tố (MFA), sinh trắc học, cookies và các hệ thống chống bot như reCAPTCHA. Mỗi phương pháp đều có ưu điểm riêng nhưng cũng đi kèm với những tác động đến quyền riêng tư.
 
